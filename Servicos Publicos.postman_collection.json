@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "7cdd3836-6040-45d0-861e-96744ef5b64b",
+		"name": "Servicos Publicos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "142228"
+	},
+	"item": [
+		{
+			"name": "/servicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/servicos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"servicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/servicos/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/servicos/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"servicos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/servicos/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Teste2\",\r\n    \"descricao\": \"Teste\",\r\n    \"link_site\": \"http://test.com\",\r\n    \"link_chat\": \"http://test.chat\",\r\n    \"categoria\": \"Teste2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/servicos/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"servicos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/servicos/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/servicos/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"servicos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/servicos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Teste\",\r\n    \"descricao\": \"Teste\",\r\n    \"link_site\": \"http://test.com\",\r\n    \"link_chat\": \"http://test.chat\",\r\n    \"categoria\": \"Teste\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/servicos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"servicos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

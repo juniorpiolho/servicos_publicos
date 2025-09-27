@@ -1,0 +1,165 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b5299;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.header h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+}
+
+.servicos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.servico-card {
+  background-color: #ffffff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.servico-card .icone {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.servico-card h3 {
+  margin: 0;
+  color: #0a7ea4;
+}
+
+.servico-card p {
+  color: #555;
+}
+
+.loading, .error {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading p {
+  font-size: 20px;
+}
+
+.error p {
+  color: red;
+  font-size: 20px;
+}
+
+/* Novos estilos para o layout de lista */
+.servicos-detalhe-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.servico-item-coluna {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #0a7ea4;
+}
+
+.servico-item-coluna h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #0b5299;
+}
+
+.servico-item-coluna p {
+  margin: 5px 0 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* --- Estilos para a lista de nomes (suas classes) --- */
+
+.lista-saude-nomes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+.servico-nome-item-saude {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.servico-nome-item-saude h3 {
+  margin: 0;
+  color: #ffffff; /* Cor branca para o texto */
+}
+
+/* Estilos para a tela de detalhes */
+.servico-detalhe-completo {
+  color: #ffffff; /* Cor branca para todo o contêiner de detalhes */
+  padding: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.servico-detalhe-completo h3 {
+  color: #ffffff;
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+.servico-detalhe-completo p {
+  line-height: 1.6;
+}
+
+.servico-detalhe-completo a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
